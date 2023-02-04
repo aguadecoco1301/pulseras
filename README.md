@@ -1,6 +1,10 @@
 # Pulseras
 Creé esta aplicación debido a que vendo pulseras de macramé y se me hace dificil recordar de qué lado debo continuar. La aplicación es muy sencilla de utilizar
 
+Si quieres probar la versión online sin descargar, [haz clic aquí](https://aguadecoco1301.github.io/pulseras/src/page/).
+
+Si quieres descargar la versión de escritorio, busca la tuya en [los lanzamientos](https://github.com/aguadecoco1301/pulseras/releases)
+
 # Controles
 
 Para empezar pulsa **Espacio**, se te dará el lado izquierdo para empezar tu patrón. 
@@ -17,3 +21,7 @@ Al ser algo tan simple, el código está bajo la licencia **The Unlicense**. Bá
 # Autor
 
 Programado el 04/02/2023 por AguaDeCoco1301 (Yo).
+
+# Donaciones
+
+[![Invitame un café en cafecito.app](https://cdn.cafecito.app/imgs/buttons/button_5.svg)](https://cafecito.app/aguadecoco1301)
