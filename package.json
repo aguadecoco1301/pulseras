@@ -4,7 +4,11 @@
   "description": "Una simple página que sirve para acordarse del lado del patrón para hacer una pulsera de macramé. ",
   "main": "src/index.js",
   "scripts": {
-    "start": "electron src/index.js"
+    "start": "electron src/index.js",
+    "pack:linux64": "electron-packager . pulseras --platform=linux --arch=x64",
+    "pack:linux32": "electron-packager . pulseras --platform=linux --arch=x86",
+    "pack:windows64": "electron-packager . pulseras --platform=win32 --arch=x64",
+    "pack:windows32": "electron-packager . pulseras --platform=win32 --arch=x86"
   },
   "repository": {
     "type": "git",
@@ -17,6 +21,7 @@
   },
   "homepage": "https://github.com/aguadecoco1301/pulseras#readme",
   "devDependencies": {
-    "electron": "^22.2.0"
+    "electron": "^22.2.0",
+    "electron-packager": "^17.1.1"
   }
 }

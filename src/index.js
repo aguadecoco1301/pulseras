@@ -11,12 +11,12 @@ function createWindow() {
             nodeIntegration: true
         }
     })
-    win.maximize()
-    win.loadFile("page/index.html")
+    win.loadFile("../page/index.html")
 
 }
 app.once("ready", () => {
     Menu.setApplicationMenu(null);
+    win.maximize()
 });
 
 app.whenReady().then(createWindow)
