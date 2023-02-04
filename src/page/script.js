@@ -17,6 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
         text.innerHTML = "..." // Las flechas pasan a ser un ..., como al iniciar.
         _score = 0; // Reinicia el score
         score.innerHTML = _score // Lo dibuja en pantalla
+        toggle = false; // Hace que la flecha apunte al mismo lado
     }
     
     

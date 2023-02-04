@@ -1,0 +1,22 @@
+{
+  "name": "pulseras",
+  "version": "1.1.0",
+  "description": "Una simple página que sirve para acordarse del lado del patrón para hacer una pulsera de macramé. ",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aguadecoco1301/pulseras.git"
+  },
+  "author": "aguadecoco1301",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/aguadecoco1301/pulseras/issues"
+  },
+  "homepage": "https://github.com/aguadecoco1301/pulseras#readme",
+  "devDependencies": {
+    "electron": "^22.2.0"
+  }
+}
