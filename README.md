@@ -1,7 +1,7 @@
 # Pulseras
 Creé esta aplicación debido a que vendo pulseras de macramé y se me hace dificil recordar de qué lado debo continuar. La aplicación es muy sencilla de utilizar
 
-Si quieres probar la versión online sin descargar, [haz clic aquí](https://aguadecoco1301.github.io/pulseras/src/page/).
+Si quieres probar la versión online sin descargar, [haz clic aquí](https://aguadecoco1301.github.io/pulseras/page/).
 
 Si quieres descargar la versión de escritorio, busca la tuya en [los lanzamientos](https://github.com/aguadecoco1301/pulseras/releases)
 
