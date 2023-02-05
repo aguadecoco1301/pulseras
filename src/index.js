@@ -4,19 +4,22 @@
 const {app, BrowserWindow, Menu} = require("electron")
 
 function createWindow() {
-    let win = new BrowserWindow({
+    var win = new BrowserWindow({
         width: 800,
         height: 800,
         webPreferences: {
             nodeIntegration: true
         }
     })
-    win.loadFile("../page/index.html")
-
+    win.loadFile("./page/index.html")
+    return win;
 }
 app.once("ready", () => {
     Menu.setApplicationMenu(null);
-    win.maximize()
+   // win.maximize()
 });
 
-app.whenReady().then(createWindow)
+app.whenReady().then(() => {
+    let win = createWindow()
+    win.maximize()
+})

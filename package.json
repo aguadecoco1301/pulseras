@@ -5,10 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "start": "electron src/index.js",
-    "pack:linux64": "electron-packager . pulseras --platform=linux --arch=x64",
-    "pack:linux32": "electron-packager . pulseras --platform=linux --arch=x86",
-    "pack:windows64": "electron-packager . pulseras --platform=win32 --arch=x64",
-    "pack:windows32": "electron-packager . pulseras --platform=win32 --arch=x86"
+    "build:js": "terser ./node_modules/**/*.js -o ./dist/node_modules -m"
   },
   "repository": {
     "type": "git",
@@ -22,6 +19,10 @@
   "homepage": "https://github.com/aguadecoco1301/pulseras#readme",
   "devDependencies": {
     "electron": "^22.2.0",
-    "electron-packager": "^17.1.1"
+    "gulp": "^4.0.2",
+    "gulp-terser": "^2.1.0"
+  },
+  "dependencies": {
+    "terser": "^5.16.3"
   }
 }
